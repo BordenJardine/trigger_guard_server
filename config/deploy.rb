@@ -35,6 +35,7 @@ set :deploy_to, '/var/www/trigger_guard'
 # set :keep_releases, 5
 set :rbenv_type, :user
 set :rbenv_ruby, '2.1.5'
+set :user, 'borden'
 
 namespace :deploy do
 
